@@ -1,0 +1,38 @@
+body{
+    background-color: #242a59;
+}
+.card{
+/* merse alg */
+width: 30rem;
+height: 25rem;
+margin-left: 3%;
+margin-top: 3%;
+border-radius: 5px;
+border: 2px solid black;
+box-shadow: #000;
+}
+footer a{
+text-decoration: none;
+padding: 20px;
+text-align: center;
+float: left;
+color: white;
+margin-left: 2%;
+display: flex;
+}
+footer{
+background-color: #333;
+display: flex;
+}
+@media screen and (max-width:700px) {
+footer{
+flex-direction: column;
+padding: 1%;
+}
+div.collapse{
+flex-direction: column;
+padding: 1%;
+
+}
+}
+
